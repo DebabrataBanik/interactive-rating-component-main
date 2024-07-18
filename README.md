@@ -15,5 +15,5 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ### Links
 
-- [Live Site URL]()
+- [Live Site URL](https://debabratabanik.github.io/interactive-rating-component-main/)
 - [Solution URl]()
