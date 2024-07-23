@@ -35,7 +35,7 @@ body{
 }
 
 .card{
-  background: linear-gradient(to bottom, hsl(213, 19%, 18%), hsla(213, 19%, 18%, 0.5));
+  background: linear-gradient(to bottom, hsl(213, 19%, 18%), hsla(213, 19%, 18%, 0.3));
   padding: 2rem;
   border-radius: 25px;
   max-width: 420px;
@@ -122,7 +122,7 @@ ul{
 }
 
 .thank-you__card{
-  background-color: var(--dark-blue);
+  background: linear-gradient(to bottom, hsl(213, 19%, 18%), hsla(213, 19%, 18%, 0.3));
   padding: 2.5rem;
   border-radius: 25px;
   max-width: 420px;
