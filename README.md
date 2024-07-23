@@ -17,3 +17,14 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 - [Live Site URL](https://debabratabanik.github.io/interactive-rating-component-main/)
 - [Solution URl]()
+
+## Built-with
+
+- HTML5 markup
+- CSS custom properties
+- CSS Flexbox
+- Vanilla JS
+
+### Continued Development
+
+Implementing React functionality to the challenge and applying some animations.
