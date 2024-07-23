@@ -123,7 +123,7 @@ ul{
 
 .thank-you__card{
   background-color: var(--dark-blue);
-  padding: 2rem;
+  padding: 2.5rem;
   border-radius: 25px;
   max-width: 420px;
   display: none;
@@ -143,12 +143,12 @@ ul{
   border-radius: 25px;
 }
 h2{
-  margin-top: 0;
+  margin-block: 20px 14px;
   font-size: 1.8rem;
 }
 
 .thank-you__card p{
   text-align: center;
   margin-right: 0;
-  margin-top: 0;
+  margin-block: 0;
 }
