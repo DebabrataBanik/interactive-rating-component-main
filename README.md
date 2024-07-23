@@ -16,7 +16,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 ### Links
 
 - [Live Site URL](https://debabratabanik.github.io/interactive-rating-component-main/)
-- [Solution URl]()
+- [Solution URl](https://www.frontendmentor.io/solutions/interactive-rating-component-main-eui__WqktD)
 
 ## Built-with
 
