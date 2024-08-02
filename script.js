@@ -3,10 +3,10 @@ const submit = document.querySelector('.btn')
 const card = document.querySelector('.card')
 const thank_you_card = document.querySelector('.thank-you__card')
 
-function updateSubmitButtonState() {
-  const isRatingSelected = Array.from(list).some(item => item.classList.contains('selected'));
-  submit.disabled = !isRatingSelected;
-}
+// function updateSubmitButtonState() {
+//   const isRatingSelected = Array.from(list).some(item => item.classList.contains('selected'));
+//   submit.disabled = !isRatingSelected;
+// }
 
 let selectedRating = null
 
@@ -19,7 +19,9 @@ list.forEach(item => {
 
     selectedRating = +item.textContent
     
-    updateSubmitButtonState()
+    // updateSubmitButtonState()
+    submit.addEventListener('click', handleSubmit);
+
   })
 })
 
@@ -35,6 +37,4 @@ const handleSubmit = () => {
 
 } 
 
-updateSubmitButtonState();
-
-submit.addEventListener('click', handleSubmit);
+// updateSubmitButtonState();
