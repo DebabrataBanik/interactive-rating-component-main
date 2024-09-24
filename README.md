@@ -11,7 +11,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ### Screenshot
 
-![alt text](design/desktop-preview.jpg)
+![alt text](interactive_rating_component_React/public/images/desktop-preview.jpg)
 
 ### Links
 
