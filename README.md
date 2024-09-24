@@ -20,11 +20,11 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ## Built-with
 
-- HTML5 markup
+- HTML5 semantic markup
 - CSS custom properties
 - CSS Flexbox
-- Vanilla JS
+- ReactJs
 
 ### Continued Development
 
-Implementing React functionality to the challenge and applying some animations.
+Successfully redid the design using ReactJs. Code can be further optimized and some animations can be added.

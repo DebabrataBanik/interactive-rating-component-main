@@ -126,7 +126,7 @@ ul{
   padding: 2.5rem;
   border-radius: 25px;
   max-width: 420px;
-  display: none;
+  display: flex;
   flex-direction: column;
   align-items: center;
 }
