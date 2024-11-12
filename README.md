@@ -27,4 +27,5 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ### Continued Development
 
-Successfully redid the design using ReactJs. Code can be further optimized and some animations can be added.
+Successfully redid the design using ReactJs. Code can be further optimized and some animations can be added. 
+Added a feedback text area for users to leave their thoughts. Also a radio container that asks users whether they want to be followed up by out team. Also added a error message for users when they submit the feedback component without selecting a rating. Changed some styling of the original rating component. Still need to work on the following card adding some more features. 
