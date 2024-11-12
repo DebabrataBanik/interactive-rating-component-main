@@ -36,38 +36,45 @@ body{
 
 .card{
   background: linear-gradient(to bottom, hsl(213, 19%, 18%), hsla(213, 19%, 18%, 0.3));
-  padding: 2rem;
+  padding: 3rem;
   border-radius: 25px;
   max-width: 420px;
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 .star__container{
-  padding: 1.2rem;
+  padding: 13px 15px;
   border-radius: 50%;
-  background-color: hsl(213, 19%, 20%);
+  background-color: var(--very-dark-blue);
   width: fit-content;
   display: flex;
   align-items: center;
   justify-content: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(35%, -35%);
+  cursor: pointer;
 }
 
-.star__container img{
-  width: 17px;
+svg{
+  width: 15px;
+  fill: var(--orange);
 }
 
 h1{
   font-size: 2rem;
-  margin-bottom: 0;
+  margin-block: 0;
 }
 
 p{
   color: var(--light-grey);
-  line-height: 1.8rem;
+  line-height: 1.7;
   font-size: 1.02rem;
   font-weight: 400;
-  margin-right: 2rem;
+  /* margin-right: 2rem; */
 }
 
 ul{
@@ -80,7 +87,7 @@ ul{
 
 .rating{
   cursor: pointer;
-  width: 50px;
+  width: 45px;
   aspect-ratio: 1;
   font-weight: 700;
   background-color: hsl(213, 19%, 20%);
@@ -106,7 +113,7 @@ ul{
   margin-top: 2rem;
   background-color: var(--orange);
   border-radius: 50px;
-  height: 50px;
+  height: 3rem;
   padding-top: 0.25rem;
   letter-spacing: 2px;
   font-size: 1.15rem;
@@ -151,4 +158,78 @@ h2{
   text-align: center;
   margin-right: 0;
   margin-block: 0;
+}
+
+.feedback__container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.feedback__container label{
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+textarea{
+  resize: none;
+  padding: 1rem;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  height: 8rem;
+  background-color: var(--dark-blue);
+  color: var(--light-grey);
+  scrollbar-width: none;
+
+  &::placeholder{
+    color: var(--light-grey);
+    opacity: 0.5;
+  }
+}
+
+/* textarea::-webkit-scrollbar {
+  width: 5px;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background-color: var(--light-grey);
+} */
+
+.radio__container{
+  margin-top: 2rem;
+
+  & label{
+    color: var(--light-grey);
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    cursor: pointer;
+  }
+}
+.radios{
+  display: flex;
+  gap: 2rem;
+}
+legend{
+  margin-bottom: 0.5rem;
+}
+
+input[type="radio"]{
+  cursor: pointer;
+  margin-right: 0.5rem;
+  accent-color: var(--orange);
+  /* appearance: none; */
+  /* width: 15px;
+  height: 15px; */
+  /* background-color: var(--dark-blue); */
+  /* border-radius: 50%; */
+  margin: 0;
+}
+
+.error{
+  color: var(--orange);
+  position: relative;
+  bottom: -1rem;
 }
