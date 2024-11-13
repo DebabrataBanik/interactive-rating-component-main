@@ -28,6 +28,7 @@ body{
 
 .card__container{
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   color: white;
@@ -36,27 +37,33 @@ body{
 
 .card{
   background: linear-gradient(to bottom, hsl(213, 19%, 18%), hsla(213, 19%, 18%, 0.3));
-  padding: 3rem;
+  padding: 2.5rem;
   border-radius: 25px;
   max-width: 420px;
   display: flex;
   flex-direction: column;
-  position: relative;
 }
 
 .star__container{
   padding: 13px 15px;
   border-radius: 50%;
-  background-color: var(--very-dark-blue);
+  background-color: var(--dark-blue);
   width: fit-content;
   display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
+  /* position: relative;
   top: 0;
-  right: 0;
+  right: 0; */
   transform: translate(35%, -35%);
   cursor: pointer;
+  align-self: flex-end;
+  box-shadow: -2px 1px 5px var(--very-dark-blue);
+
+  &:active{
+    transform: translate(33%, -34%);
+    box-shadow: none;
+  }
 }
 
 svg{
@@ -232,4 +239,15 @@ input[type="radio"]{
   color: var(--orange);
   position: relative;
   bottom: -1rem;
+  font-size: 0.85rem;
+}
+
+footer{
+  margin-top: 1rem;
+  color: var(--light-grey);
+  font-size: 0.8rem;
+
+  a{
+    color: var(--orange);
+  }
 }

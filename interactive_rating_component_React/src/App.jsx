@@ -33,6 +33,7 @@ function App() {
             />
           </>
         )}
+        <footer>Coded by <a href='https://github.com/DebabrataBanik/interactive-rating-component-main/tree/react'>Debabrata K Banik</a></footer>
       </div>
     </div>
   )
