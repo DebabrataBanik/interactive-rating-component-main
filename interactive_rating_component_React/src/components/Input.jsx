@@ -6,27 +6,27 @@ function Input() {
       <textarea name="feedback" id="feedback" placeholder="Please leave your thoughts..."></textarea>
 
       <div className="radio__container">
-        <legend>Do you want us to follow up on your feedback?</legend>
+        <legend>Would you like us to follow up on your feedback?</legend>
 
         <div className="radios">
-          <label htmlFor="followUpYes">
+          <label htmlFor="Yes">
             <input
               type="radio"
-              id="followUpYes"
+              id="Yes"
               name="followUp"
               value="yes"
             />
-            Yes
+            <span>Yes</span>
           </label>
 
-          <label htmlFor="followUpNo">
+          <label htmlFor="No">
             <input
               type="radio"
-              id="followUpNo"
+              id="No"
               name="followUp"
               value="no"
             />
-            No
+            <span>No</span>
           </label>
         </div>
 
