@@ -1,5 +1,4 @@
 import Input from "./Input"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function Rating({
   selectedRating,
