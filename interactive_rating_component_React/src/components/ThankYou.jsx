@@ -9,7 +9,7 @@ function ThankYou({
         You selected {rating} out of 5
       </div>
       <h2>Thank you!</h2>
-      <p>We appreciate you taking the time to give a rating. If you ever need more support,
+      <p>We appreciate you taking the time to give us your feedback. If you ever need more support,
         don’t hesitate to get in touch!</p>
     </div>
   )
