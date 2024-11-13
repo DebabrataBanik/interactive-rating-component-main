@@ -15,7 +15,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ### Links
 
-- [Live Site URL](https://debabratabanik.github.io/interactive-rating-component-main/)
+- [Live Site URL](https://interactive-feedback-component-debabrata-banik.vercel.app/)
 - [Solution URl](https://www.frontendmentor.io/solutions/interactive-rating-component-main-eui__WqktD)
 
 ## Built-with
